@@ -7,14 +7,12 @@
 header {
   background-color:#FF9A4B;
   height:50px;
-  padding-bottom:50px;
-  
 }
 
 main {
   display:flex;
   width:960px;
-  
+  margin:50px auto;
 }
 
 
@@ -24,6 +22,10 @@ main {
   padding:10px;
   background-color:#EEEEEE;
   position:relative;
+}
+
+.step-box:last-child {
+  margin-right: 0;
 }
 
 .step-img1{
@@ -57,8 +59,7 @@ main {
 }
 
 .title {
-  margin-top:15px;
-  margin-bottom:5px;
+  margin:15px 0 5px;
 }
 
 footer {
