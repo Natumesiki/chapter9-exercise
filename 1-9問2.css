@@ -1,8 +1,50 @@
-* { 
+＊{ 
   margin:0;
   padding:0;
   box-sizing:border-box;
 }
 
-
+header {
+  background-color:orange;
+  height:50px;
+  padding-bottom:50px;
   
+}
+
+main {
+  
+}
+
+
+.step-box {
+  width:300px;
+  margin-right:30px;
+  padding:10px;
+  background-color:gray;
+}
+
+.step-img1{
+  height:150px;
+  background-image:url(img/flow01.png);
+  background-size: cover;
+  background-position:bottom;
+}
+
+.step-img2 {
+  height:150px;
+  background-image:url(img/flow02.png);
+  background-size: cover;
+  background-position:bottom;
+}
+
+
+.step-img3 {
+  height:150px;
+  background-image:url(img/flow03.png);
+  background-size: cover;
+  background-position:bottom;
+}
+
+.step-name {
+  
+}
